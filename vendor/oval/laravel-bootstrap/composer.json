@@ -1,0 +1,38 @@
+{
+    "name": "oval/laravel-bootstrap",
+    "type": "library",
+    "description": "Core files including helpers for Laravel",
+    "keywords": ["core", "laravel"],
+    "homepage": "https://github.com/jamestrusleroval/PHP_Laravel_Bootstrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Korush Mahdavieh",
+            "homepage": "http://oval.uk.com",
+            "role": "Developer"
+        },
+        {
+            "name": "James Trusler",
+            "homepage": "http://oval.uk.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Martin Levett",
+            "homepage": "http://oval.uk.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "Core/",
+            "Helpers/"
+        ],
+        "psr-4": {
+            "Oval\\Laravel\\Bootstrap\\Core\\": "Core/",
+            "Oval\\Laravel\\Bootstrap\\Helpers\\": "Helpers/"
+        }
+    } 
+}
