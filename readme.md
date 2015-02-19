@@ -1,8 +1,8 @@
-> Use http://dillinger.io/ to edit this  
-  
-#Oval / VanillaLaravel  
-  
+> Use http://dillinger.io/ to edit this
+
+#Oval / VanillaLaravel 
 This is a vanilla to start new applications with
+
 ----------
 ##Naming conventions
 
