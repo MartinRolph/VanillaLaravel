@@ -1,8 +1,8 @@
 <?php
 
-use App\Models\Objects\CoreObject;
+namespace App\Models\Objects\ViewModels;
 
-class BaseViewModel extends CoreObject
+class BaseViewModel extends \Oval\Laravel\Bootstrap\Core\BaseViewModel
 {
     
 }

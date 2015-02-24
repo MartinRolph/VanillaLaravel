@@ -9,6 +9,7 @@ return array(
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
     'SuperClosure\\' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Paolooo\\LaravelDoctrine\\' => array($vendorDir . '/paolooo/laravel-doctrine/src'),
     'Oval\\Laravel\\Bootstrap\\Helpers\\' => array($vendorDir . '/oval/laravel-bootstrap/Helpers'),
     'Oval\\Laravel\\Bootstrap\\Core\\' => array($vendorDir . '/oval/laravel-bootstrap/Core'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
