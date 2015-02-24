@@ -11,8 +11,7 @@ class Kernel extends ConsoleKernel {
 	 * @var array
 	 */
 	protected $commands = [
-            'App\Console\Commands\Inspire',
-            'Paolooo\LaravelDoctrine\Console\DoctrineCommand'
+            'App\Console\Commands\Inspire'
 	];
 
 	/**
