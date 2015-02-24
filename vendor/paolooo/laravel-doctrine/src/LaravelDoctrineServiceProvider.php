@@ -18,7 +18,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(EntityManager::class, function() {
+        $this->app->singleton("Doctrine\ORM\EntityManager", function() {
 
             $applicationMode = env('APP_ENV');
 
